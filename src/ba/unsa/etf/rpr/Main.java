@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     private static Korpa korpa = new Korpa();
+    private static Korpa k1=new Korpa();
     private static Supermarket supermarket = new Supermarket();
 
     private static void unosArtikalaUMarket(){
