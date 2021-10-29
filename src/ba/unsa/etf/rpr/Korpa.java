@@ -25,7 +25,7 @@ public class Korpa {
 
   public Artikl izbaciArtiklSaKodom(String kod){
     Artikl n= null;
-    for(int i = 0 ; i < artikli.length ;i++){
+    for(int i = 0 ; i < artikli.length ; i++){
       if(artikli[i]!=null && artikli[i].getKod().equals(kod)){
         n=artikli[i];
         artikli[i]=null;
